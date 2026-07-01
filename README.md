@@ -1,3 +1,15 @@
-# HERMES-V1
+# HERMES V1
 
-AI Resume Screening Multi-Agent System
+An enterprise-style offline AI Resume Screening Multi-Agent System.
+
+## Project Goals
+
+- Resume Screening
+- Semantic Candidate Search
+- Hybrid Retrieval
+- Explainable AI Ranking
+- Offline Local LLM Inference
+
+## Architecture
+
+Coming soon...
