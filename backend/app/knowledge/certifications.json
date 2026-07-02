@@ -1,0 +1,12 @@
+{
+  "cloud": [
+    "aws certified",
+    "azure certified",
+    "google cloud"
+  ],
+
+  "ai": [
+    "tensorflow developer",
+    "databricks"
+  ]
+}

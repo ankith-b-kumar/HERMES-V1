@@ -1,0 +1,58 @@
+{
+  "programming_languages": [
+    "python",
+    "java",
+    "c",
+    "c++",
+    "c#",
+    "javascript",
+    "typescript",
+    "go",
+    "rust",
+    "sql"
+  ],
+
+  "machine_learning": [
+    "machine learning",
+    "deep learning",
+    "artificial intelligence",
+    "computer vision",
+    "natural language processing",
+    "nlp",
+    "llm",
+    "large language models",
+    "transformers",
+    "rag",
+    "retrieval augmented generation",
+    "prompt engineering",
+    "fine tuning",
+    "embedding",
+    "vector database"
+  ],
+
+  "frameworks": [
+    "fastapi",
+    "django",
+    "flask",
+    "pytorch",
+    "tensorflow",
+    "keras",
+    "scikit-learn",
+    "langchain",
+    "llamaindex"
+  ],
+
+  "cloud": [
+    "aws",
+    "azure",
+    "gcp"
+  ],
+
+  "devops": [
+    "docker",
+    "kubernetes",
+    "git",
+    "linux",
+    "jenkins"
+  ]
+}

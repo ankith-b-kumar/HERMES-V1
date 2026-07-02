@@ -1,0 +1,11 @@
+{
+  "ml": "machine learning",
+  "ai": "artificial intelligence",
+  "nlp": "natural language processing",
+  "llms": "llm",
+  "k8s": "kubernetes",
+  "js": "javascript",
+  "ts": "typescript",
+  "tf": "tensorflow",
+  "cv": "computer vision"
+}
