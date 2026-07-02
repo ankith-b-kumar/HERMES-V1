@@ -42,6 +42,12 @@ dist/
 # Windows
 Thumbs.db
 
+# Dataset
+backend/data/candidates.jsonl
+
+# Generated outputs
+backend/team_Stakers.csv
+
 # ChromaDB
 chroma_db/
 
