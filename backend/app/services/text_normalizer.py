@@ -11,6 +11,18 @@ class TextNormalizer:
     def __init__(self):
         self.knowledge = KnowledgeService()
 
+        # Compile synonym regex patterns once
+        self._compiled_synonyms = [
+            (
+                re.compile(
+                    r"\b" + re.escape(short.lower()) + r"\b",
+                    re.IGNORECASE,
+                ),
+                full.lower(),
+            )
+            for short, full in self.knowledge.synonyms.items()
+        ]
+
     def normalize(self, text: str) -> str:
         """
         Normalize text while preserving line structure and
@@ -30,15 +42,7 @@ class TextNormalizer:
 
         text = "\n".join(cleaned_lines)
 
-        for short, full in self.knowledge.synonyms.items():
-
-            pattern = r"\b" + re.escape(short.lower()) + r"\b"
-
-            text = re.sub(
-                pattern,
-                full.lower(),
-                text,
-                flags=re.IGNORECASE,
-            )
+        for pattern, replacement in self._compiled_synonyms:
+            text = pattern.sub(replacement, text)
 
         return text
